@@ -1,0 +1,42 @@
+//
+//  PrefixHeader.pch
+//  iPlayer
+//
+//  Created by 翁志方 on 15/12/5.
+//  Copyright © 2015年 wzf. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <AVFoundation/AVFoundation.h>
+
+#import "MusicRule.h"
+#import "MusicNote.h"
+
+#import "GlobalDefine.h"
+
+#import "GlobalVar.h"           // 全局变量
+
+#import "Macros.h"              // 宏
+#import "UIMacros.h"            // 宏UI
+
+#import "UIKitExtension.h"
+
+
+
+#import "UIBaseViewController.h"        // UIViewController 基类
+
+
+#import "FSNetworkManager.h"            // 接口
+
+
+#pragma mark - 基类
+#import "UIBaseViewController.h"
+#import "UIBaseTableViewController.h"
+
+#import "BaseModel.h"
+#import "UIBaseTableViewCell.h"
+
+
+#endif /* PrefixHeader_pch */
