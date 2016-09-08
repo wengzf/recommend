@@ -49,6 +49,7 @@
 		210C38621D1E5C82005971FF /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 210C38481D1E5C82005971FF /* UIView+Category.m */; };
 		210C38631D1E5C82005971FF /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 210C384A1D1E5C82005971FF /* UIView+Extension.m */; };
 		210C38641D1E5C82005971FF /* UIView+ImageShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 210C384C1D1E5C82005971FF /* UIView+ImageShot.m */; };
+		212C02F31D80DDC00025B40E /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212C02F21D80DDC00025B40E /* RootTableViewController.m */; };
 		213569971D5EEB0B0072301F /* UMMobClick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213569961D5EEB0B0072301F /* UMMobClick.framework */; };
 		2148FC551D12A33A00CD862A /* ALARM1.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 2148FC541D12A33A00CD862A /* ALARM1.WAV */; };
 		2148FC591D12BB7500CD862A /* KeyChainUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2148FC581D12BB7500CD862A /* KeyChainUtil.m */; };
@@ -201,6 +202,8 @@
 		210C384B1D1E5C82005971FF /* UIView+ImageShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ImageShot.h"; sourceTree = "<group>"; };
 		210C384C1D1E5C82005971FF /* UIView+ImageShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ImageShot.m"; sourceTree = "<group>"; };
 		210C384D1D1E5C82005971FF /* UIMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMacros.h; sourceTree = "<group>"; };
+		212C02F11D80DDC00025B40E /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		212C02F21D80DDC00025B40E /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
 		213569961D5EEB0B0072301F /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMMobClick.framework; sourceTree = "<group>"; };
 		213CB9EC1D16463B00DFA820 /* 任务.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "任务.h"; path = "iPlayer/任务.h"; sourceTree = "<group>"; };
 		2148FC541D12A33A00CD862A /* ALARM1.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ALARM1.WAV; sourceTree = "<group>"; };
@@ -565,6 +568,8 @@
 				21A1E4261C12BEE40048BBE4 /* AppDelegate.m */,
 				21A1E4281C12BEE40048BBE4 /* ViewController.h */,
 				21A1E4291C12BEE40048BBE4 /* ViewController.m */,
+				212C02F11D80DDC00025B40E /* RootTableViewController.h */,
+				212C02F21D80DDC00025B40E /* RootTableViewController.m */,
 				21A1E42B1C12BEE40048BBE4 /* Main.storyboard */,
 				21A1E4311C12BEE40048BBE4 /* Assets.xcassets */,
 				21A1E4331C12BEE40048BBE4 /* LaunchScreen.storyboard */,
@@ -937,6 +942,7 @@
 				210C384F1D1E5C82005971FF /* NSDate+ToString.m in Sources */,
 				210C385A1D1E5C82005971FF /* UIButton+Extension.m in Sources */,
 				210C38501D1E5C82005971FF /* NSObject+NSJSONSerialization.m in Sources */,
+				212C02F31D80DDC00025B40E /* RootTableViewController.m in Sources */,
 				210C37E51D1E1C5E005971FF /* AFHTTPRequestOperation.m in Sources */,
 				210C380A1D1E1CF5005971FF /* GTMBase64.m in Sources */,
 				210C38541D1E5C82005971FF /* HYScratchCardView.m in Sources */,
